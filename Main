@@ -1,0 +1,14 @@
+# 2020_6-14_CodePractice
+
+class A{
+    public A(String str){
+
+    }
+}
+public class Main{
+    public static void main(String[] args) {
+        A classa=new A("he");
+        A classb=new A("he");
+        System.out.println(classa==classb);//运行结果：false
+    }
+}
